@@ -1,0 +1,26 @@
+ZacharysMacBook:~ zacharywaterman$ cd desktop 
+ZacharysMacBook:desktop zacharywaterman$ cd conferencepaper
+ZacharysMacBook:conferencepaper zacharywaterman$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+ZacharysMacBook:conferencepaper zacharywaterman$ git init
+Initialized empty Git repository in /Users/zacharywaterman/Desktop/ConferencePaper/.git/
+ZacharysMacBook:conferencepaper zacharywaterman$ git add .
+ZacharysMacBook:conferencepaper zacharywaterman$ git commit -m  "comment"
+[master (root-commit) eba16c2] comment
+ 6 files changed, 296 insertions(+)
+ create mode 100644 Bitcoin Project in Latex.aux
+ create mode 100644 Bitcoin Project in Latex.log
+ create mode 100644 Bitcoin Project in Latex.pdf
+ create mode 100644 Bitcoin Project in Latex.synctex.gz
+ create mode 100644 Bitcoin Project in Latex.tex
+ create mode 100644 ResearchPaperWritingHandout-3.pdf
+ZacharysMacBook:conferencepaper zacharywaterman$ git remote add origin https://github.com/zwaterman/conf_test.git
+ZacharysMacBook:conferencepaper zacharywaterman$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 181.69 KiB | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/zwaterman/conf_test.git
+ * [new branch]      master -> master
+ZacharysMacBook:conferencepaper zacharywaterman$ 
